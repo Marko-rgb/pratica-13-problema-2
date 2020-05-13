@@ -1,0 +1,613 @@
+<!--
+<!DOCTYPE html>
+<html>
+<head>
+  <title>p3</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+<script>
+var Empleado='Marko'
+var Salario='$15,000'
+document.write(Empleado);
+document.write('<br>');
+document.write(Salario);
+</script>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>p4</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+<script>
+  var nombre;
+  var email;
+  nombre=prompt('Ingrese su nombre:','');
+  email=prompt('Ingrese su email:','');
+  document.write(nombre);
+  document.write('<br>');
+  document.write(email);
+</script>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>p6</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+<script>
+    var nombre;
+    var nota;
+    nombre=prompt ('Ingrese nombre:','');
+    nota1=prompt('Ingrese primer nota:','');
+    nota1=parseInt(nota1);
+    nota2=prompt('Ingrese segunda nota:','');
+    nota2=parseInt(nota2);
+    nota3=prompt('Ingrese tercer nota:','');
+    nota3=parseInt(nota3);
+
+    var suma = nota1 + nota2 + nota3;
+    var division = suma/3
+
+    if (division >=70)
+    {
+        document.write(nombre + ' esta aprobado con una nota de '+ division);
+    }
+    else
+    {
+        document.write(nombre + ' no aprobo con una nota de '+ division)
+    }
+</script>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>p6.1</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+<script>
+    var clave1;
+    var clave2;
+
+    clave1=prompt('ingrese su clave:','');
+    clave2=prompt('ingrese su clave nuevamente:','');
+
+    if (clave1==clave2)
+    {
+        document.write('Correcto')
+    }
+    else 
+    {
+        document.write('Las claves no son iguales')
+    }
+
+</script>
+
+</body>
+</html>
+
+
+
+<html>
+<head>
+  <title>p7.1</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+<script>
+    var num1,num2;
+    num1=prompt('Primer numero:','')
+    num2=prompt('segundo numero:','')
+    num1=parseInt(num1);
+    num2=parseInt(num2);
+    if (num1>num2)
+    {
+    var suma = num1+num2;
+    var divi = num1/num2;
+    
+        document.write('tu primer numero es mayor, aqui esta la suma: '+suma+ '<br>y si lo dividimos nos quedamos con: '+divi);
+    }
+    else
+    {
+        var multi = num1*num2;
+        var divi = num1/num2;
+        document.write('tu segundo numero es mayor en este caso esta es la multiplicacion: '+multi+ '<br>entonces esto seria el resultado si lo dividimos: '+divi);
+    }   
+</script>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>p7.2</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+<script>
+    var nombre;
+    var nota;
+    nombre=prompt ('Ingrese nombre:','');
+    nota1=prompt('Ingrese primer nota:','');
+    nota1=parseInt(nota1);
+    nota2=prompt('Ingrese segunda nota:','');
+    nota2=parseInt(nota2);
+    nota3=prompt('Ingrese tercer nota:','');
+    nota3=parseInt(nota3);
+
+    var suma = nota1 + nota2 + nota3;
+    var division = suma/3;
+
+    if(division>=4)
+    {
+        document.write('Regular');
+    }
+    else
+    {
+        document.write('Reprobado');
+    }
+</script>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>p7.3</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+<script>
+    var num;
+    num=prompt('ingrese un numero de uno o dos digitos: ','')
+    num=parseInt(num);
+    if (num>=10)
+    {
+        document.write(num + ' Su numero es de dos digitos')
+    }
+    else
+    {
+        document.write(num + ' Su numero solo tiene un digito')
+    }
+
+</script>
+
+</body>
+</html>
+
+<html>
+<head>
+  <title>p8.1</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+<script>
+    var num1, num2, num3;
+    num1=prompt('Ingrese primer numero:','');
+    num1=parseInt(num1);
+    num2=prompt('Ingrese segundo numero:','');
+    num2=parseInt(num2);
+    num3=prompt('Ingrese tercer numero:','');
+    num3=parseInt(num3);
+
+    if (num1>num2 && num1>num3)
+    {
+        document.write('el mayor es: '+num1)
+    }
+    if (num2>num1 && num2>num3)
+    {
+        document.write('el mayor es: '+num2)
+    }
+    if (num3>num1 && num3>num2)
+    {
+        document.write('el mayor es: '+num3)
+    }
+
+</script>
+
+</body>
+</html>
+
+
+<html>
+<head>
+    <title>p8.2</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    
+<script>
+    var num;
+    num=prompt('ingrese un valor positivo o negativo: ','');
+    num=parseInt(num);
+
+    if(num==0)
+    {
+        document.write('Tu numero es cero')
+    }
+    if(num<=-1)
+    {
+        document.write('Tu numero es un numero negativo<br>'+num)
+    }
+    if(num>=1)
+    {
+        document.write('Tu numero es un numero positivo<br>'+num)
+    }
+</script>
+
+</body>
+</html>
+
+
+<html>
+<head>
+    <title>p8.3</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    
+<script>
+    var num;
+    num=prompt('ingrese un numero de uno, dos o tres digitos: ','')
+    num=parseInt(num);
+    if (num>=10 && num<=99)
+    {
+        document.write(num + ' Su numero es de dos digitos')
+    }
+    if (num<=9)
+    {
+        document.write(num + ' Su numero solo tiene un digito')
+    }
+    if (num>=100)
+    {
+        document.write(num + ' Su numero tiene tres digitos')
+    }
+</script>
+
+</body>
+</html>
+
+
+<html>
+<head>
+  <title>p9.1</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+<script>
+    var dia,mes,año;
+    var fecha;
+    dia=prompt('Ingrese día:',' ');
+    mes=prompt('Ingrese mes:',' ');
+    año=prompt('Ingrese año:',' ');
+    var fecha=dia+mes+año;
+    if(mes==12)
+    {
+        document.write(fecha+'<br>es el mes de navidad!')
+    }
+    else
+    {
+        document.write(fecha)
+    }
+</script>
+
+</body>
+</html>
+
+<html>
+<head>
+  <title>p9.2</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+<script>
+    var num1,num2,num3;
+    num1=prompt('ingrese un primer numero: ','')
+    num1=parseInt(num1);
+    num2=prompt('ingrese un segundo numero: ','')
+    num2=parseInt(num2);
+    num3=prompt('ingrese un tercer numero: ','')
+    num3=parseInt(num3);
+    var suma=(num1+num2)
+    var multi=(suma*num3)
+    if (num1==num2 && num1==num3)
+    {
+        document.write(multi)
+    }
+    else
+    {
+        document.write('los valores no son iguales, o se realiza ninguna operacion.')
+    }
+</script>
+
+</body>
+</html>
+
+
+<html>
+<head>
+  <title>p9.3</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+<script>
+    var num1,num2,num3;
+    num1=prompt('ingrese un primer numero: ','')
+    num1=parseInt(num1);
+    num2=prompt('ingrese un segundo numero: ','')
+    num2=parseInt(num2);
+    num3=prompt('ingrese un tercer numero: ','')
+    num3=parseInt(num3);
+    if(num1<10 && num2<10 && num3<10)
+    {
+        document.write('Todos los números son menores a diez')
+    }
+</script>
+
+</body>
+</html>
+
+
+<html>
+<head>
+  <title>p9.3</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+<script>
+    var y, x;
+    y=prompt('ingrese un valor a Y: ','')
+    y=parseInt(y)
+    x=prompt('ingrese un valor a X: ','')
+    x=parseInt(x)
+    if(y>0 && x>0)
+    {
+        document.write('Esta coordenada pertenece a la cuadrante 1')
+    }
+    if(y>0 && x<0)
+    {
+        document.write('Esta coordenada pertenece a la cuadrante 2')
+    }
+    if(y<0 && x<0)
+    {
+        document.write('Esta coordenada pertenece a la cuadrante 3')
+    }
+    if(y<0 && x>0)
+    {
+        document.write('Esta coordenada pertenece a la cuadrante 4')
+    }
+</script>
+
+</body>
+</html>
+
+
+<html>
+<head>
+  <title>p9.5</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+<script>
+    var sueldo;
+    var años;
+    sueldo=prompt('ingrese el sueldo a pagar: ','')
+    sueldo=parseInt(sueldo)
+    años=prompt('ingrese los años de antiguedad en la empresa: ','')
+    años=parseInt(años)
+    if(sueldo<500 && años>=10)
+    {
+    multi=sueldo*20;
+    divi=multi/100;
+    sum=divi+sueldo;
+        document.write('su sueldo aumenta un 20%: '+sum)
+    }
+    if(sueldo<500 && años<10)
+    {
+    multi=sueldo*5;
+    divi=multi/100;
+    sum=divi+sueldo;
+        document.write('su sueldo aumenta un 5%: '+sum)
+    }
+    if(sueldo>=500)
+    {
+        document.write('este es su sueldo: '+sueldo)
+    }
+
+</script>
+
+</body>
+</html> 
+
+
+<html>
+<head>
+  <title>p10</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+<script>
+    var num1,num2,num3;
+    num1=prompt('ingrese un primer numero: ','')
+    num1=parseInt(num1)
+    num2=prompt('ingrese un segundo numero: ','')
+    num2=parseInt(num2)
+    num3=prompt('ingrese un tercer numero: ','')
+    num3=parseInt(num3)
+
+    if(num1<10)
+    {
+        document.write('Alguno de los números es menor a diez')
+    }
+    if(num2<10)
+    {
+        document.write('Alguno de los números es menor a diez')
+    }
+    if(num3<10)
+    {
+        document.write('Alguno de los números es menor a diez')
+    }
+</script>
+
+</body>
+</html> 
+
+
+<html>
+<head>
+  <title>p11</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+<script>
+var palabra;
+  palabra=prompt('Ingrese una de estas palabras: mesa, perro, gato, casa','');
+  switch (palabra) {
+    case 'mesa': document.write('table');
+            break;
+    case 'casa': document.write('house');
+            break;
+    case 'perro': document.write('dog');
+            break;
+    case 'gato': document.write('cat');
+            break;
+  }
+
+</script>
+
+</body>
+</html> 
+
+<html>
+<head>
+  <title>p12.1</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+<script>
+    var valor
+    valor=11;
+    while (valor<=281)
+    {
+        document.write(valor);
+        document.write('<br>');
+        valor=valor+11;
+    }
+</script>
+
+</body>
+</html> 
+
+
+<html>
+<head>
+  <title>p12.2</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+<script>
+    var valor
+    valor=8;
+    while (valor<=500)
+    {
+        document.write(valor);
+        document.write('<br>');
+        valor=valor*2;
+    }
+</script>
+
+</body>
+</html> 
+
+
+<html>
+<head>
+  <title>p13.1</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+<script>
+    var nota=0;
+    var mayor=0;
+    var menor=0;
+    while (nota<10)
+    {
+    var calif;
+    calif=prompt('Ingresar calificacion: ','');
+    if(calif>=7)
+
+        {
+            mayor = mayor + 1;
+        }
+        else
+        {
+            menor = menor + 1;
+        }
+        nota=nota+1;
+    }
+        document.write('notas mayores o iguales a siete: '+mayor);
+        document.write('<br>');
+        document.write('notas menores a siete: '+menor);
+
+
+</script>
+
+</body>
+</html> 
+-->
+
+<html>
+<head>
+  <title>p13.2</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+<script>
+    var al1, al2, al3, al4, al5;
+    var al1=prompt('ingresa la primera altura:','')
+    var al2=prompt('ingresa la segunda altura:','')
+    var al3=prompt('ingresa la tercera altura:','')
+    var al4=prompt('ingresa la cuarta altura:','')
+    var al5=prompt('ingresa la quinta altura:','')
+    var suma=(al1+ al2+ al3+ al4+ al5)
+    var divi=(suma/5)
+    {
+        document.write('esta es la altura promedio: '+divi)
+    }
+</script>
+
+</body>
+</html> 
